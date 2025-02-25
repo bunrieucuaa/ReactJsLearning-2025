@@ -1,6 +1,26 @@
 //Component Compositions
 // 2 cách đều cho ra chung 1 kết quả, nó tùy vào sở thích cá nhân
 
+//children cho phép truyền nội dung con vào giữa các thẻ của component.
+
+//const MyComponent = ({ children }) => {
+//   return <div>{children}</div>;
+// };
+
+// // Sử dụng:
+// <MyComponent>
+//   <p>This is a child element</p>
+// </MyComponent>
+
+//{...props} giúp truyền tất cả các props còn lại vào một component con hoặc phần tử.
+
+//const MyComponent = ({ title, ...props }) => {
+//   return <div {...props}>{title}</div>;
+// };
+
+// // Sử dụng:
+// <MyComponent title="Hello" className="my-class" id="unique-id" />
+
 export default function TabButton({ children, onSelect, isSelected }) {
   return (
     <li>

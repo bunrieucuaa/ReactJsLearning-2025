@@ -25,6 +25,11 @@ export default function UserInput({ onChangeInput, userInput }) {
   //   const updatedUser = updateObject(user, "age", 30);
   //   console.log(updatedUser); // { name: "John", age: 30 }
 
+
+  //&& a true => b
+
+  //?? a null hoặc undefined -> hiện b
+
   return (
     <section id="user-input">
       <div className="input-group">
