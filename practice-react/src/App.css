@@ -1,0 +1,16 @@
+
+/* Center content vertically and horizontally */
+.app-container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #444c53;
+  font-family: Arial, sans-serif;
+}
+
+/* Add some spacing for components */
+.content {
+  width: 100%;
+  text-align: center;
+}
